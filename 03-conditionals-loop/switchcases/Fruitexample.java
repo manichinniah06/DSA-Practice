@@ -5,26 +5,36 @@ public class Fruitexample{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a fruit :");
         String fruit = sc.nextLine();
+        System.out.print("Enter a day: ");
+        String day = sc.nextLine();
 
         switch (fruit){
             case "Mango":
             case "mango":
-                System.out.print("King of fruits");
+                System.out.println("King of fruits");
                 break;
             case "Apple":
             case "apple":
-                System.out.print("Sweet red Fuit");
+                System.out.println("Sweet red Fuit");
                 break;
             case "Orange":
             case "orange":
-                System.out.print("Orange is round fruit");
+                System.out.println("Orange is round fruit");
                 break;
             case "Grapes":
             case "grapes":
-                System.out.print("Grapes is violet in colour");
+                System.out.println("Grapes is violet in colour");
                 break;
             default:
-                System.out.print("Enter a valid fruit");
+                System.out.println("Enter a valid fruit");
+        }
+
+        switch(day){
+            case "Monday" -> System.out.println("Monday blues");
+            case "Tuesday" -> System.out.println("It's second day, push onn");
+            case "Wednesday" -> System.out.println("Mid Week");
+            case "Thursday" -> System.out.println("1 more day, thatit!");
+            case "Friday" -> System.out.println("Weekend vibes");
         }
     }
 }
