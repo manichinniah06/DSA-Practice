@@ -41,11 +41,9 @@ public class Sum {
         int sum = num1 + num2;
         System.out.println("Sum = "+sum);
     }
-
+    // pass the value of numbers when you are calling the method in main()
     static int sum2(int num1,int num2){
         int sum = num1 + num2;
         return sum;
     }
-
-    // pass the value of numbers when you are calling the method in main()
 }
