@@ -12,4 +12,8 @@ public class Swap{
         arr[a] = arr[b];
         arr[b] = temp;
     }
+
+    // max of an array
+    // max = Integer.MIN_VALUE; or arr[0];
+    // reverse an array
 }
